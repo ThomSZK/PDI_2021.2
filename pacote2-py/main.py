@@ -4,7 +4,7 @@
 # Autor: Bogdan T. Nassu
 # Universidade Tecnológica Federal do Paraná
 #===============================================================================
-# agora apaguei a parada
+
 import sys
 import timeit
 import numpy as np
@@ -161,5 +161,5 @@ def main ():
 
 if __name__ == '__main__':
     main ()
-
+#agora na real ta aqui em baixo mano, que doideira
 #===============================================================================
