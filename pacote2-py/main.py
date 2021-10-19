@@ -4,7 +4,7 @@
 # Autor: Bogdan T. Nassu
 # Universidade Tecnológica Federal do Paraná
 #===============================================================================
-# my dude, this is just a test man. don't be afraid
+# agora apaguei a parada
 import sys
 import timeit
 import numpy as np
