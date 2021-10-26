@@ -51,6 +51,8 @@ def blurIngenuo(image, kernel_h, kernel_w):
 
 def blurSeparado(image, box_height, box_width):
     ###PAREI AQUI
+    print('ok')
+    return None
 
 def main():
     # Abre as 2 imagens de exemplo disponibilizadas
@@ -63,8 +65,8 @@ def main():
         sys.exit()
     
     # parametriza as imagens
-    image1 = image1 / 255
-    image2 = image2 / 255
+    image1 = image1.astype(np.float32) / 255
+    image2 = image2.astype(np.float32) / 255
 
     # Aplica Blur Ingenuo nas imagens 
     image1_out = blurIngenuo(image1, KERNEL_HEIGHT, KERNEL_WIDTH)
