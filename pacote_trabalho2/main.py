@@ -49,6 +49,9 @@ def blurIngenuo(image, kernel_h, kernel_w):
                 img[row][col][2] = (somaR / media)
     return img
 
+def blurSeparado(image, box_height, box_width):
+    ###PAREI AQUI
+
 def main():
     # Abre as 2 imagens de exemplo disponibilizadas
     image1 = cv2.imread(INPUT_IMAGE1)
