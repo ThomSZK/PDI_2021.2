@@ -12,7 +12,7 @@ import cv2
 
 #===============================================================================
 
-INPUT_IMAGE =  'arroz.bmp'
+INPUT_IMAGE =  '/Users/thomszk/Desktop/PDI/PDI_2021.2/trabalho4/205.bmp'
 
 # TODO: ajuste estes parâmetros!
 NEGATIVO = False
